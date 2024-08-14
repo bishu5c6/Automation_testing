@@ -1,0 +1,23 @@
+step-1: Download python
+
+
+step-2: Download pycharm
+
+step-3: Install bowser specific drivers
+
+step-4: setup selenium webdriver 1. within pycharm or--> project settings
+                                 2. pip install selenium
+
+
+Test Case (sample we are going to automate).
+--------------------------------------------
+1. Open Web Browser(Chrome/firefox/IE).
+2. Open URL     https://opensource-demo.orangehrmlive.com/web/index.php/auth/login .
+3. Provide Email(admin@yourstore.com).
+4. Provide password (Admin).
+5. click on login. admin@123
+6. capture title of the dashboard page.(actual title).
+7. Verify title of the page: "Dashboard / nopCommerce administrator" (Expected).
+8. close browser.
+
+webdriver is a python module which is available in selenium package.
