@@ -18,5 +18,5 @@ time.sleep(5)
 driver.refresh()
 driver.close()
 
-
+#all these are some basic methods
 
